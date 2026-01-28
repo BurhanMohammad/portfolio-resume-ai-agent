@@ -44,7 +44,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 def get_api_key() -> str:
-    api_key = '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'
+    api_key = # api key 
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY not set in environment or .env")
     return api_key
